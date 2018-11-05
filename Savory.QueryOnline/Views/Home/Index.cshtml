@@ -8,38 +8,36 @@
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Data Online</title>
-    <link href="https://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" rel="stylesheet">
-
+    <link href="http://static.savory.cn/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://static.savory.cn/bootstrap/3.3.7/css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="http://static.savory.cn/codemirror/5.19.0/lib/codemirror.css" rel="stylesheet" />
-
-    <link href="https://cdn.bootcss.com/datatables/1.10.16/css/dataTables.bootstrap.min.css" rel="stylesheet">
+    <link href="http://static.savory.cn/datatables/1.10.18/css/dataTables.bootstrap.min.css" rel="stylesheet">
 </head>
 <body ng-app="app">
 
     <header class="navbar navbar-default navbar-static-top">
-        <div class="container">
+        <div class="container-fluid">
             <div class="navbar-header">
                 <a class="navbar-brand" ui-sref="app.welcome">Data Online</a>
             </div>
         </div>
     </header>
 
-    <div class="container" ui-view></div>
+    <div class="container-fluid" ui-view></div>
 
-    <script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
-    <script src="https://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="http://static.savory.cn/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://static.savory.cn/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    <script src="https://cdn.bootcss.com/angular.js/1.6.4/angular.min.js"></script>
-    <script src="https://cdn.bootcss.com/angular.js/1.6.4/angular-resource.min.js"></script>
-    <script src="https://cdn.bootcss.com/angular-ui-router/1.0.3/angular-ui-router.min.js"></script>
+    <script src="http://static.savory.cn/angularjs/1.6.4/angular.min.js"></script>
+    <script src="http://static.savory.cn/angularjs/1.6.4/angular-resource.min.js"></script>
+    <script src="http://static.savory.cn/angular-ui-router/1.0.5/angular-ui-router.min.js"></script>
 
     <script src="http://static.savory.cn/codemirror/5.19.0/lib/codemirror.js"></script>
     <script src="http://static.savory.cn/codemirror/5.19.0/mode/sql/sql.js"></script>
     <script src="http://static.savory.cn/codemirror/5.19.0/addon/selection/active-line.js"></script>
 
-    <script src="https://cdn.bootcss.com/datatables/1.10.16/js/jquery.dataTables.min.js"></script>
-    <script src="https://cdn.bootcss.com/datatables/1.10.16/js/dataTables.bootstrap.min.js"></script>
+    <script src="http://static.savory.cn/datatables/1.10.18/js/jquery.dataTables.min.js"></script>
+    <script src="http://static.savory.cn/datatables/1.10.18/js/dataTables.bootstrap.min.js"></script>
 
     <script src="scripts/query-online.js?v=@DateTime.Now.ToString(" yyyyMMddHHmmss")"></script>
 

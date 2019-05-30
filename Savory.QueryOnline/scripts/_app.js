@@ -2,5 +2,4 @@
 
 app.config(route);
 
-app.controller(WelcomeController);
-
+app.service('WebSqlService', ['$resource', '$q', WebSqlService]);

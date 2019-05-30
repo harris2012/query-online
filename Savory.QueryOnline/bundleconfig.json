@@ -2,10 +2,11 @@
   {
     "outputFileName": "scripts/query-online.js",
     "inputFiles": [
-      "scripts/controllers/WelcomeController.js",
-
       "scripts/_route.js",
-      "scripts/_app.js"
+      "scripts/_service.js",
+      "scripts/_app.js",
+
+      "scripts/controllers/WelcomeController.js"
     ]
   }
 ]
